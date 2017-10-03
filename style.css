@@ -1,0 +1,34 @@
+body {
+  background: url(images/fondoAzul.jpg) no-repeat center center scroll;
+  background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto/9; /* Bug de ie8 */
+}
+
+figcaption {
+  text-align: center;
+}
+
+.centrado {
+  text-align: center;
+}
+
+.marco {
+    border-color: rgb(252,157,3);
+    border-style: double;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 15%;
+}
+
+.colorcampo:valid {
+  background:green
+}
+
+.colorcampo:invalid {
+  background:red
+}
